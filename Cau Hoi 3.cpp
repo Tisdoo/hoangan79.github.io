@@ -115,29 +115,29 @@ bool ktra (int a[], int n) {
 void test()
 {
 	int test1[] = { 5, 2, 9, 1, 5, 6 };
-	int n1 = sizeof(test1) / sizeof(test1[0]);
+	int n1 = 6;
 	bubblesort(test1, n1);
 
 
 	int test2[] = { 5, 2, 9, 1, 5, 6 };
-	int n2 = sizeof(test2) / sizeof(test2[0]);
+	int n2 = 6;
 	insertionsort(test2, n2);
 
 
 
 	int test3[] = { 5, 2, 9, 1, 5, 6 };
-	int n3 = sizeof(test3) / sizeof(test3[0]);
+	int n3 = 6;
 	selectionsort(test3, n3);
 
 
 	int test4[] = { 5, 2, 9, 1, 5, 6 };
-	int n4 = sizeof(test4) / sizeof(test4[0]);
+	int n4 = 6;
 	HeapSort(test4, n4);
 
 
 
 	int test5[] = { 5, 2, 9, 1, 5, 6 };
-	int n5 = sizeof(test5) / sizeof(test5[0]);
+	int n5 = 6;
 	Quicksort(test5, n5);
 
 
